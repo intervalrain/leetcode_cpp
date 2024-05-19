@@ -44,3 +44,4 @@
 [0506_RelativeRanks](./src/0506_RelativeRanks.md)  
 [0979_DistributeCoinsInBinaryTree](./src/0979_DistributeCoinsInBinaryTree.md)  
 [2487_RemoveNodesFromLinkedList](./src/2487_RemoveNodesFromLinkedList.md)  
+[3068_FindTheMaximumSumOfNodesValues](./src/3068_FindTheMaximumSumOfNodesValues.md)
