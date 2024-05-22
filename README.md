@@ -42,6 +42,7 @@
 [0035_SearchInsertPosition](./src/0035_SearchInsertPosition.md)  
 [0036_ValidSudoku](./src/0036_ValidSudoku.md)  
 [0037_SudokuSolver](./src/0037_SudokuSolver.md)  
+[0131_PalindromePartitionng](./src/0131_PalindromePartitionng.md)
 [0506_RelativeRanks](./src/0506_RelativeRanks.md)  
 [0979_DistributeCoinsInBinaryTree](./src/0979_DistributeCoinsInBinaryTree.md)  
 [1863_SumOfAllSubsetXORTotals](./src/1863_SumOfAllSubsetXORTotals.md) 
