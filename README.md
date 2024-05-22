@@ -44,5 +44,6 @@
 [0037_SudokuSolver](./src/0037_SudokuSolver.md)  
 [0506_RelativeRanks](./src/0506_RelativeRanks.md)  
 [0979_DistributeCoinsInBinaryTree](./src/0979_DistributeCoinsInBinaryTree.md)  
+[1863_SumOfAllSubsetXORTotals](./src/1863_SumOfAllSubsetXORTotals.md) 
 [2487_RemoveNodesFromLinkedList](./src/2487_RemoveNodesFromLinkedList.md)  
 [3068_FindTheMaximumSumOfNodesValues](./src/3068_FindTheMaximumSumOfNodesValues.md)  
