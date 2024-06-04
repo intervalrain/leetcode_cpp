@@ -49,6 +49,7 @@
 [0979_DistributeCoinsInBinaryTree](./src/0979_DistributeCoinsInBinaryTree.md)  
 [1208_GetEqualSubstringsWithinBudget](./src/1208_GetEqualSubstringsWithinBudget.md)  
 [1863_SumOfAllSubsetXORTotals](./src/1863_SumOfAllSubsetXORTotals.md)  
+[2486_AppendCharactersToStringToMakeSubsequence](./src/2486_AppendCharactersToStringToMakeSubsequence.md)  
 [2487_RemoveNodesFromLinkedList](./src/2487_RemoveNodesFromLinkedList.md)  
 [3068_FindTheMaximumSumOfNodesValues](./src/3068_FindTheMaximumSumOfNodesValues.md)  
-[3110_ScoreOfString](./src/3110_ScoreOfString.md)
+[3110_ScoreOfString](./src/3110_ScoreOfString.md)  
