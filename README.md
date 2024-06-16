@@ -49,6 +49,7 @@
 [0042_TrappingRainWater](./src/0042_TrappingRainWater.md)  
 [0075_SortColors](./src/0075_SortColors.md)  
 [0131_PalindromePartitionng](./src/0131_PalindromePartitionng.md)  
+[0330_PatchingArray](./src/0330_PatchingArray.md)  
 [0344_ReverseString](./src/0344_ReverseString.md)  
 [0502_IP](./src/0502_IPO.md)  
 [0506_RelativeRanks](./src/0506_RelativeRanks.md)  
