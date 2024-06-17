@@ -54,6 +54,7 @@
 [0502_IP](./src/0502_IPO.md)  
 [0506_RelativeRanks](./src/0506_RelativeRanks.md)  
 [0523_ContinuousSubarraySum](./src/0523_ContinuousSubarraySum.md)  
+[0633_SumOfSquaresNumbers](./src/0633_SumOfSquaresNumbers.md)  
 [0648_ReplaceWords](./src/0648_ReplaceWords.md)  
 [0945_MinimumIncrementToMakeArrayUnique](./src/0945_MinimumIncrementToMakeArrayUnique.md)  
 [0979_DistributeCoinsInBinaryTree](./src/0979_DistributeCoinsInBinaryTree.md)  
