@@ -56,6 +56,7 @@
 [0523_ContinuousSubarraySum](./src/0523_ContinuousSubarraySum.md)  
 [0633_SumOfSquaresNumbers](./src/0633_SumOfSquaresNumbers.md)  
 [0648_ReplaceWords](./src/0648_ReplaceWords.md)  
+[0826_MostProfitAssigningWork](./src/0826_MostProfitAssigningWork.md)  
 [0945_MinimumIncrementToMakeArrayUnique](./src/0945_MinimumIncrementToMakeArrayUnique.md)  
 [0979_DistributeCoinsInBinaryTree](./src/0979_DistributeCoinsInBinaryTree.md)  
 [1002_FindCommonCharacters](./src/1002_FindCommonCharacters.md)  
