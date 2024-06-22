@@ -62,6 +62,7 @@
 [1002_FindCommonCharacters](./src/1002_FindCommonCharacters.md)  
 [1122_RelativeSortArray](./src/1122_RelativeSortArray.md)  
 [1208_GetEqualSubstringsWithinBudget](./src/1208_GetEqualSubstringsWithinBudget.md)  
+[1248_CountNumberOfNiceSubarrays](./src/1248_CountNumberOfNiceSubarrays.md)  
 [1482_MinimumNumberOfDaysToMakeMBouquets](./src/1482_MinimumNumberOfDaysToMakeMBouquets.md)  
 [1552_MagneticForceBetweenTwoBalls](./src/1552_MagneticForceBetweenTwoBalls.md)  
 [1863_SumOfAllSubsetXORTotals](./src/1863_SumOfAllSubsetXORTotals.md)  
