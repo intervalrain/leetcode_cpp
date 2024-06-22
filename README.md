@@ -47,6 +47,7 @@
 [0040_CombinationSumII](./src/0040_CombinationSumII.md)  
 [0041_FirstMissingPositive](./src/0041_FirstMissingPositive.md)  
 [0042_TrappingRainWater](./src/0042_TrappingRainWater.md)  
+[0043_MultiplyStrings](./src/0043_MultiplyStrings.md)  
 [0075_SortColors](./src/0075_SortColors.md)  
 [0131_PalindromePartitionng](./src/0131_PalindromePartitionng.md)  
 [0330_PatchingArray](./src/0330_PatchingArray.md)  
