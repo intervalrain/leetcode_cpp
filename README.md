@@ -61,6 +61,7 @@
 [0945_MinimumIncrementToMakeArrayUnique](./src/0945_MinimumIncrementToMakeArrayUnique.md)  
 [0979_DistributeCoinsInBinaryTree](./src/0979_DistributeCoinsInBinaryTree.md)  
 [1002_FindCommonCharacters](./src/1002_FindCommonCharacters.md)  
+[1038_BinarySearchTreeToGreaterSumTree](./src/1038_BinarySearchTreeToGreaterSumTree.md)  
 [1122_RelativeSortArray](./src/1122_RelativeSortArray.md)  
 [1208_GetEqualSubstringsWithinBudget](./src/1208_GetEqualSubstringsWithinBudget.md)  
 [1248_CountNumberOfNiceSubarrays](./src/1248_CountNumberOfNiceSubarrays.md)  
