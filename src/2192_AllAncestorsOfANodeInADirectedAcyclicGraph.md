@@ -98,26 +98,22 @@ public:
 class Solution {
 public:
     vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
-        vector<vector<int>> adj(n), ans(n);
-
-        for (auto& edge: edges) {
-            adj[edge[0]].push_back(edge[1]);
+        vector<vector<int>> graph(n), res(n);
+        for (const auto& e : edges) {
+            graph[e[0]].push_back(e[1]);
         }
-
         for (int i = 0; i < n; i++) {
-            dfs(adj,ans,i,i);
+            dfs(graph, res, i, i);
         }
-        
-        return ans;
+        return res;
     }
-    void dfs(vector<vector<int>>& adj, vector<vector<int>>& ans, int& parent, int& child) {
-        for (auto& ch: adj[child]) {
-            if (ans[ch].size() == 0 || ans[ch].back() != parent) {
-                ans[ch].push_back(parent);
-                dfs(adj,ans,parent,ch);
+    void dfs(vector<vector<int>>& graph, vector<vector<int>>& res, int& parent, int& curr) {
+        for (auto& child : graph[curr]) {
+            if (res[child].size() == 0 || res[child].back() != parent) {
+                res[child].push_back(parent);
+                dfs(graph, res, parent, child);
             }
-            
         }
     }
-}
+};
 ```

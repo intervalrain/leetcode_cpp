@@ -72,6 +72,7 @@
 [1863_SumOfAllSubsetXORTotals](./src/1863_SumOfAllSubsetXORTotals.md)  
 [2037_MinimumNumberOfMovesToSeatEveryone](./src/2037_MinimumNumberOfMovesToSeatEveryone.md)  
 [2192_AllAncestorsOfANodeInADirectedAcyclicGraph](./src/2192_AllAncestorsOfANodeInADirectedAcyclicGraph.md)  
+[2285_MaximumTotalImportanceOfRoads](./src/2285_MaximumTotalImportanceOfImportance.md)  
 [2486_AppendCharactersToStringToMakeSubsequence](./src/2486_AppendCharactersToStringToMakeSubsequence.md)  
 [2487_RemoveNodesFromLinkedList](./src/2487_RemoveNodesFromLinkedList.md)  
 [3068_FindTheMaximumSumOfNodesValues](./src/3068_FindTheMaximumSumOfNodesValues.md)  
