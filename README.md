@@ -67,6 +67,7 @@
 [1248_CountNumberOfNiceSubarrays](./src/1248_CountNumberOfNiceSubarrays.md)  
 [1382_BalanceABinarySearchTree](./src/1382_BalanceABinarySearchTree.md)  
 [1482_MinimumNumberOfDaysToMakeMBouquets](./src/1482_MinimumNumberOfDaysToMakeMBouquets.md)  
+[1550_ThreeConsecutiveOdds](./src/1550_ThreeConsecutiveOdds.md)
 [1552_MagneticForceBetweenTwoBalls](./src/1552_MagneticForceBetweenTwoBalls.md)  
 [1791_FindCenterOfStarGraph](./src/1791_FindCenterOfStarGraph.md)  
 [1863_SumOfAllSubsetXORTotals](./src/1863_SumOfAllSubsetXORTotals.md)  
