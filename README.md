@@ -71,6 +71,7 @@
 [1530_NumberOfGoodLeafNodesPairs](./src/1530_NumberOfGoodLeafNodesPairs.md)  
 [1550_ThreeConsecutiveOdds](./src/1550_ThreeConsecutiveOdds.md)
 [1552_MagneticForceBetweenTwoBalls](./src/1552_MagneticForceBetweenTwoBalls.md)  
+[1605_FindValidMatrixGivenRowAndColumnSums](./src/1605_FindValidMatrixGivenRowAndColumnSums.md)  
 [1791_FindCenterOfStarGraph](./src/1791_FindCenterOfStarGraph.md)  
 [1863_SumOfAllSubsetXORTotals](./src/1863_SumOfAllSubsetXORTotals.md)  
 [2037_MinimumNumberOfMovesToSeatEveryone](./src/2037_MinimumNumberOfMovesToSeatEveryone.md)  
