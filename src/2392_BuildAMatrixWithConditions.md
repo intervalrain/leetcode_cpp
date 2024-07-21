@@ -55,40 +55,34 @@ No matrix can satisfy all the conditions, so we return the empty matrix.
 ```cpp
 class Solution {
 public:
-    vector<vector<int>> buildMatrix(int k, vector<vector<int>>& rowConditions, vector<vector<int>>& colConditions) {
-        vector<int> col_indegree(k+1, 0), row_indegree(k+1, 0);
-        vector<vector<int>> col_graph(k+1), row_graph(k+1);
-        
-        add(rowConditions, row_indegree, row_graph);
-        add(colConditions, col_indegree, col_graph);
-        
-        vector<int> order_row = topo_sort(row_indegree, row_graph);
+    vector<vector<int>> buildMatrix(int k, vector<vector<int>>& rc, vector<vector<int>>& cc) {
+        vector<int> indegree_row(k+1,0), indegree_col(k+1,0);
+        vector<vector<int>> graph_row(k+1), graph_col(k+1);
+        build(rc, indegree_row, graph_row);
+        build(cc, indegree_col, graph_col);
+        auto order_row = topo_sort(indegree_row, graph_row);
         if (order_row.size() != k) return {};
-        vector<int> order_col = topo_sort(col_indegree, col_graph);
+        auto order_col = topo_sort(indegree_col, graph_col);
         if (order_col.size() != k) return {};
         
         vector<vector<int>> res(k, vector<int>(k, 0));
-        
-        for (int i = 0; i < k; i++) {
-            for (int j = 0; j < k; j++) {
-                res[i][j] = order_row[i] == order_col[j] ? order_row[i] : 0;
-            }
+        for (int i = 1; i <= k; i++) {
+            res[order_row[i]][order_col[i]] = i;
         }
         
         return res;
     }
-
     
-    void add(vector<vector<int>>& con, vector<int>& indegree, vector<vector<int>>& graph) {
-        for (const auto& v : con) {
-            indegree[v[1]]++;
-            graph[v[0]].push_back(v[1]);
+    void build(vector<vector<int>>& cond, vector<int>& indegree, vector<vector<int>>& graph) {
+        for (const auto& e : cond) {
+            indegree[e[1]]++;
+            graph[e[0]].push_back(e[1]);
         }
     }
     
-    vector<int> topo_sort(vector<int>& indegree, vector<vector<int>>& graph) {
-        vector<int> order;
-        
+    unordered_map<int,int> topo_sort(vector<int>& indegree, vector<vector<int>>& graph) {
+        unordered_map<int,int> res;
+        int pos = 0;
         queue<int> q;
         for (int i = 1; i < indegree.size(); i++) {
             if (indegree[i] == 0) {
@@ -101,7 +95,7 @@ public:
             while (sz--) {
                 int curr = q.front();
                 q.pop();
-                order.push_back(curr);
+                res[curr] = pos++;
                 for (const auto& neighbor : graph[curr]) {
                     if (--indegree[neighbor] == 0) {
                         q.push(neighbor);
@@ -110,7 +104,7 @@ public:
             }
         }
         
-        return order;
+        return res;
     }
 };
 ```
