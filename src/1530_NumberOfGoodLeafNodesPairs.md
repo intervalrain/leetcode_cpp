@@ -5,6 +5,7 @@ You are given the `root` of a binary tree and an integer `distance`. A pair of t
 
 Return *the number of good leaf node pairs in the tree*.
 
+
 **Example 1:**
 ![ex1](https://assets.leetcode.com/uploads/2020/07/09/e1.jpg)
 ```
@@ -28,7 +29,7 @@ Explanation: The only good pair is [2,5].
 
 **Constraints:**
 
-+ The number of nodes in the tree is in the range `[1, 210].`
++ The number of nodes in the tree is in the range `[1, 2^10].`
 + `1 <= Node.val <= 100`
 + `1 <= distance <= 10`
 

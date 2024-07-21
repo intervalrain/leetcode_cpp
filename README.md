@@ -78,6 +78,7 @@
 [2181_MergeNodesInBetweenZone](./src/2181_MergeNodesInBetweenZeros.md)  
 [2192_AllAncestorsOfANodeInADirectedAcyclicGraph](./src/2192_AllAncestorsOfANodeInADirectedAcyclicGraph.md)  
 [2285_MaximumTotalImportanceOfRoads](./src/2285_MaximumTotalImportanceOfImportance.md)  
+[2392_BuildAMatrixWithConditions](./src/2392_BuildAMatrixWithConditions.md)  
 [2486_AppendCharactersToStringToMakeSubsequence](./src/2486_AppendCharactersToStringToMakeSubsequence.md)  
 [2487_RemoveNodesFromLinkedList](./src/2487_RemoveNodesFromLinkedList.md)  
 [2582_PassThePillow](./src/2582_PassThePillow.md)  
