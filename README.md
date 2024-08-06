@@ -86,5 +86,6 @@
 [2486_AppendCharactersToStringToMakeSubsequence](./src/2486_AppendCharactersToStringToMakeSubsequence.md)  
 [2487_RemoveNodesFromLinkedList](./src/2487_RemoveNodesFromLinkedList.md)  
 [2582_PassThePillow](./src/2582_PassThePillow.md)  
+[3016_MinimumNumberOfPushesToTypeWordII](./src/3016_MinimumNumberOfPushesToTypeWordII.md)  
 [3068_FindTheMaximumSumOfNodesValues](./src/3068_FindTheMaximumSumOfNodesValues.md)  
 [3110_ScoreOfString](./src/3110_ScoreOfString.md)  
