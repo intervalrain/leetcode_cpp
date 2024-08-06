@@ -35,7 +35,10 @@ Output: [0,1]
 + **Only one valid answer exists.**
 
 **My solution:**
-+ hash table
++ Time Cost: `00:48`
++ Algorithm: `hash table`
++ Time Complexity: `O(n)`
++ Space Complexity: `O(n)`
 ```cpp
 class Solution {
 public:
