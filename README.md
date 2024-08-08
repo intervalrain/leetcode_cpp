@@ -55,6 +55,7 @@
 [0048_RotateImage](./src/0048_RotateImage.md)  
 [0049_GroupAnagrams](./src/0049_GroupAnagrams.md)  
 [0050_Pow(x,n)](./src/0050_Pow(x,n).md)  
+[0051_NQueens](./src/0051_NQueens.md)  
 [0075_SortColors](./src/0075_SortColors.md)  
 [0131_PalindromePartitionng](./src/0131_PalindromePartitionng.md)  
 [0330_PatchingArray](./src/0330_PatchingArray.md)  
