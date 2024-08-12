@@ -79,6 +79,7 @@
 [1530_NumberOfGoodLeafNodesPairs](./src/1530_NumberOfGoodLeafNodesPairs.md)  
 [1550_ThreeConsecutiveOdds](./src/1550_ThreeConsecutiveOdds.md)
 [1552_MagneticForceBetweenTwoBalls](./src/1552_MagneticForceBetweenTwoBalls.md)  
+[1568_MinimumNumberOfDaysToDisconnectIslands](./src/1568_MinimumNumberOfDaysToDisconnectIslands.md)  
 [1605_FindValidMatrixGivenRowAndColumnSums](./src/1605_FindValidMatrixGivenRowAndColumnSums.md)  
 [1636_SortArrayByIncreasingFrequency](./src/1636_SortArrayByIncreasingFrequency.md)  
 [1791_FindCenterOfStarGraph](./src/1791_FindCenterOfStarGraph.md)  
